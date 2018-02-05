@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Horario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">                     
+        <link rel="stylesheet" type="text/css" href="./css/java.css" media="all">
+        <script src="java.js"></script>        
+	</head>
+<body>
+<h1>Horario escolar</h1>
+
+<table class="tabla">
+	<caption><b>Desarrollo Aplicaciones Web DUAL 2017-2018</b></caption>
+    <tr>
+    	<th>Hora</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th>
+	</tr>
+	<tr>
+		<td>15:45</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarBBDD(this)">BBDD</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarSSII(this)">SSII</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarSSII(this)">SSII</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarBBDD(this)">BBDD</td>
+	</tr>
+	<tr>
+		<td>16:40</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarLLMM(this)">LLMM</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarFOL(this)">FOL</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarBBDD(this)">BBDD</td>
+	</tr>
+	<tr>
+		<td>17:35</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarLLMM(this)">LLMM</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programci&oacute;n</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarFOL(this)">FOL</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarBBDD(this)">BBDD</td>
+	</tr>
+	<tr>
+		<td>18:45</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarLLMM(this)">LLMM</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)">tutoria</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+	</tr>
+	<tr>
+		<td>19:40</td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarLLMM(this)">LLMM</td>
+		<td></td>
+		<td onmouseover="cambioColor(this)" onmouseout="cambioColorReturn(this)" onclick="mostrarProgramación(this)">programaci&oacute;n</td>
+	</tr>
+</table>
+<div id="Bbdd">
+	se centra en enseñarnos a trabajar con base de datos y todo lo que lleva tras de si. Funcionamiento, tratamiento y obtención de datos. usamos para su desarrollo MySQL principalmente
+	profesor: Jaume oliver
+</div>
+<div id="Llmm">
+	nos enseña trabajar sobre paginas web, desde xml hasta html5. se usa un editor de text , la mayoria sublime text
+	profesor: Rafa Gión
+</div>
+<div id="Ssii">
+	se centra en enseñarnos un poco de historia de la computacion, hasta usar pequeños archivos ejecutables. su idea es conocer nuestro entorno(sistema operativos)
+	Profesor: Ramón Jaume
+</div>
+<div id="Progra">
+	se basa en tener algunas ideas de programar, su sintaxis, su forma de trabajo(aplicar metodologias agiles, TDD,Solid) y que si llegamos al puestro de trabajo tengamos ideas de lo básico.Python y Java
+	Profesor: David Gelpi
+</div>
+<div id="Fol">
+	nos ayuda a incorporarnos al mundo laboral, dandonos herramientas sobre contratos, derechos y deberes tanto de la empresa como la nuestra para una buena relación
+</div>
+</body>
+</html>

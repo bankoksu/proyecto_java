@@ -1,0 +1,46 @@
+*{
+	font-family: cursive;
+}
+body{
+	background-color: white;
+}
+h1 {
+	position: center;
+}
+
+table, th, td {
+	border: 1px solid blue;
+	border-collapse: collapse;
+}
+
+caption{
+	font-size: 200%;
+	padding: 10px;
+}
+
+th,td{
+	padding: 15px;
+}
+
+#Bbdd{
+	display: none;
+}
+
+#Llmm{
+	display: none;
+}
+
+
+#Ssii{
+	display: none;
+}
+
+#Progra{
+	display: none;
+}
+
+#Fol{
+	display: none;
+}
+
+
