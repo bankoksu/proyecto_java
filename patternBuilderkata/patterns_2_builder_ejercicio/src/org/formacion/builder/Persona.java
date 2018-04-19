@@ -24,26 +24,38 @@ public class Persona {
 			return this;
 		}
 		
-		public Builder setMayor(int edad, String lugarTrabajo) {
+		public static Builder setMayor(int edad, String lugarTrabajo) {
 			if (edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
 			persona.edad = edad;
 			persona.lugarTrabajo = lugarTrabajo;
 			persona.colegio = null;
-			return this;
+			return new builderMayor(persona);
 		}
 		
-		public Builder setMenor(int edad, String colegio) {
+		public static Builder setMenor(int edad, String colegio) {
 			if (edad >= 18) throw new IllegalArgumentException("es mayor de edad " + edad);
 			persona.edad = edad;
 			persona.colegio = colegio;
 			persona.lugarTrabajo = null;
-			return this;
+			return new builderMenor(persona);
 		}
 	
 		public Persona build() {
 			return persona;
 		}
 
+		public Object setMayor(int edad) {
+			return edad;
+		}
+
+	}
+	
+	@Override
+	public String toString() {
+		return nombre;
+		
+		
+		
 	}
 	
 }

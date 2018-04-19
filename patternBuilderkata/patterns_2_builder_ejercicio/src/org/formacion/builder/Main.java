@@ -8,7 +8,7 @@ public class Main {
 		
 		Persona madre = new Persona.Builder("Maria")
                 .setMunicipio("Selva")
-                .setMayor(37, null)
+                .setMayor(37)
                 .setLugarTrabajo("Google")
                 .build();
 		/*
