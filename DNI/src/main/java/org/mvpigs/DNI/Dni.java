@@ -1,6 +1,6 @@
 package org.mvpigs.DNI;
 
-public Class Dni() {
+public class Dni() {
    
     private String dni=null;
 
@@ -10,4 +10,5 @@ public Class Dni() {
 
     }
     
+
 }
