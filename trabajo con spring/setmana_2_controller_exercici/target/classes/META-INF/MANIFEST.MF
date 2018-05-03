@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: setmana_2_controller_exercici
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Dual
+Implementation-Vendor-Id: org.formacio
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/controller
+Created-By: Maven Integration for Eclipse
+
